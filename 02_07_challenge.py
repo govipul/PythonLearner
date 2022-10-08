@@ -57,7 +57,8 @@ class TerminalScribe:
         self.canvas.setPos(self.pos, colored(self.mark, 'red'))
         self.canvas.print()
         time.sleep(self.framerate)
-    
+        
+    #Added draw sqaure method inside class 
     def drawSquare(self,size):
         right = 0
         while(right < size):
