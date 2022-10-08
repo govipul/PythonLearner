@@ -82,10 +82,32 @@ print(bool(1))
 # True
 print(bool(-1))
 # True
-print(bool(0))
-# False
 print(bool(1j))
 # True
+print(bool(0))
+# False
+print(bool(0.0))
+# False
+print(bool(0j))
+# False
 
+print(bool('True'))
+# True
+print(bool('False'))
+# True
+print(bool(''))
+# False
+print(bool(' '))
+# True
+print(bool([1,2]))
+# True
+print(bool({}))
+# False
+print(bool(None))
+# False
+
+myList = [1,2]
+if myList:
+    print('MyList has some value')
 
 
