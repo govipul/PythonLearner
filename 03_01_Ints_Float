@@ -110,4 +110,11 @@ myList = [1,2]
 if myList:
     print('MyList has some value')
 
+# Boolean Logic
+weatherIsNice = False
+haveUmbrella = True
 
+if not haveUmbrella or weatherIsNice:
+    print('Stay inside')
+else: 
+    print('Go for walk')
