@@ -33,12 +33,12 @@ class WhileStatement:
             while True: 
                 if datetime.now().second < wait_until :
                     continue 
-                break # its break statement like in Java and break only 1 loop statement
+                break 
             print(f'we are {wait_until} seconds!')
 
 whileObj = WhileStatement()
 whileObj.start()
-#whileObj.waitUntil()
-#whileObj.waitUntil2()
+whileObj.waitUntil()
+whileObj.waitUntil2()
 whileObj.waitUntil3()
 whileObj.waitUntil4()
